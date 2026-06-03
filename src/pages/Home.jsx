@@ -15,7 +15,7 @@ export default function Home() {
       <GlowCard className="overflow-hidden p-4 md:p-6">
         <div className="relative overflow-hidden rounded-[1.6rem] border border-white/10 bg-slate-950/80">
           <img
-            src="https://deathhallow07.github.io/OrionClickablePrototype/orion_banner.png"
+            src="OrionClickablePrototype/docs/orion_banner.png"
             alt="ORION learning platform banner"
             className="h-[300px] w-full object-cover md:h-[460px]"
           />
