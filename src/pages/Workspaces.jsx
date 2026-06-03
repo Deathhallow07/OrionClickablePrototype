@@ -667,13 +667,13 @@ function TeacherDashboard() {
                 <UploadCloud className="h-8 w-8 text-sky-300" />
                 <h4 className="mt-3 font-semibold text-white">Upload syllabus</h4>
                 <p className="mt-1 text-xs leading-5 text-slate-400">PDF chapter outline, official topic order, learning objectives.</p>
-                <button onClick={() => setUploaded(true)} className="mt-4 rounded-xl bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-sky-300">Simulate upload</button>
+                <button onClick={() => setUploaded(true)} className="mt-4 rounded-xl bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-sky-300">Upload</button>
               </div>
               <div className="rounded-3xl border border-dashed border-violet-400/30 bg-violet-400/5 p-5">
                 <FileText className="h-8 w-8 text-violet-300" />
                 <h4 className="mt-3 font-semibold text-white">Upload question bank</h4>
                 <p className="mt-1 text-xs leading-5 text-slate-400">Topic-wise questions, school tests, PYQs, practice worksheets.</p>
-                <button onClick={() => setUploaded(true)} className="mt-4 rounded-xl border border-white/15 px-4 py-2 text-sm font-semibold text-white hover:bg-white/5">Simulate upload</button>
+                <button onClick={() => setUploaded(true)} className="mt-4 rounded-xl border border-white/15 px-4 py-2 text-sm font-semibold text-white hover:bg-white/5">Upload</button>
               </div>
             </div>
             <div className="mt-4 space-y-3">

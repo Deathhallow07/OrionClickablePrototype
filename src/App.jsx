@@ -25,11 +25,7 @@ function TopNav() {
           <Logo />
         </Link>
 
-        <div className="flex items-center gap-2">
-          {!isHome && <Pill tone="blue">{roleLabel}</Pill>}
-          <Pill tone="green">Pilot-ready UI</Pill>
-          <Pill tone="purple">Demo Mode</Pill>
-        </div>
+        
       </div>
     </div>
   );
@@ -38,16 +34,7 @@ function TopNav() {
 function DemoFooter() {
   return (
     <div className="mx-auto max-w-7xl px-5 pb-8 pt-2">
-      <GlowCard className="flex flex-wrap items-center justify-between gap-4 p-4">
-        <div className="flex items-center gap-3 text-sm text-slate-300">
-          <PlayCircle className="h-5 w-5 text-sky-300" />
-          Demo path: choose role → press Enter on login → open dashboard.
-        </div>
-        <div className="flex gap-2">
-          <Pill tone="blue">React Router</Pill>
-          <Pill tone="green">Hard-coded demo data</Pill>
-        </div>
-      </GlowCard>
+      
     </div>
   );
 }
