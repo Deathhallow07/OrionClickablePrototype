@@ -5,7 +5,7 @@ import { GlowCard, Pill } from "./Workspaces.jsx";
 
 // Put your final banner image inside the public folder and update this path.
 // Example: if the file is public/orion-home-banner.png, use "/orion-home-banner.png".
-const HOME_BANNER_IMAGE_PATH = "https://deathhallow07.github.io/OrionClickablePrototype/orion_banner.png";
+
 
 export default function Home() {
   const navigate = useNavigate();
